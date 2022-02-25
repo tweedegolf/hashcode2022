@@ -1,0 +1,12 @@
+[package]
+name = "hashcode2022"
+version = "0.1.0"
+authors = ["Marlon Baeten <marlon@tweedegolf.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.8.3"
+itertools = "0.10.0"
+glob = "0.3.0"
+clap = { version = "3.1.2", features = ["derive"] }
+owo-colors = "3"
